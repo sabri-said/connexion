@@ -161,7 +161,7 @@ input {
   font-family: 'Montserrat', sans-serif;
 }
 
-input:focus, textarea:focus{
+input:focus, textarea:focus {
   border: 1px solid #329e5e;
 }
 
@@ -211,10 +211,6 @@ input:focus, textarea:focus{
   text-transform: none;
 }
 
-.form-submit {
-  text-align: right;
-}
-
 .form-link-group {
   display: flex;
   flex-direction: row;
@@ -240,10 +236,16 @@ input:focus, textarea:focus{
   bottom: 0;
 }
 
+.form-submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .submit {
   width: 150px;
   height: 50px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 14px;
@@ -281,7 +283,6 @@ input:focus, textarea:focus{
 
 .select-list {
   position: relative;
-  display: inline-block;
   width: 100%;
   margin-bottom: 47px;
 }
