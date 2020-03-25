@@ -71,10 +71,15 @@ body {
   border-radius: 1rem;
 }
 
+#container-signup-content{
+  border-radius: 1rem;
+}
+
 .signup-img {
   position: relative;
   width: 385px;
-  margin-bottom: -8px;
+  /* margin-bottom: -8px; */
+  background-color: #930C0C;
 }
 
 .signup-form {
@@ -92,8 +97,8 @@ body {
 }
 
 .register-form {
-  padding: 93px 115px 90px 80px;
-  margin-bottom: -8px;
+  padding: 90px 80px 90px 80px;
+  /* margin-bottom: -8px; */
 }
 
 .form-row {
