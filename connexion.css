@@ -14,7 +14,18 @@ input, select, textarea {
 
 input:focus, select:focus, textarea:focus {
   outline: none;
-  box-shadow: none !important;
+  box-shadow: none,
+}
+
+textarea {
+  height: 100%;
+  resize: none;
+}
+
+#form-input-textarea {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
 }
 
 img {
@@ -71,7 +82,7 @@ body {
   border-radius: 1rem;
 }
 
-#container-signup-content{
+#container-signup-content {
   border-radius: 1rem;
 }
 
